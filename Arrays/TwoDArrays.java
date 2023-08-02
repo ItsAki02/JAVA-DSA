@@ -11,14 +11,20 @@ public class TwoDArrays {
               7 8 9
              */
 
-             int[][] arr = new int[3][];
+             int[][] arr = new int[3][3];
              for(int i = 0; i < arr.length; i++){
                 for( int j = 0; j < arr[i].length; j ++){
                     arr[i][j] = sc.nextInt();
+                    System.out.print(arr[i][j] + " ");
 
                 }
+                System.out.println();
 
              }
+                          for(int i = 0; i < arr.length; i++){
+                            System.out.println(Arrays.toString(arr[i]));
+                          }
+
              }
 
         }
